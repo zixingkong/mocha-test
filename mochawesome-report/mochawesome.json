@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-10-09T10:00:33.547Z",
+    "end": "2021-10-09T10:00:33.554Z",
+    "duration": 7,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "42e7e882-46c9-4b2a-80ef-f44985b98770",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "78fdb72e-76b6-4fc5-8f1d-b22fe39bcbda",
+          "title": "机构管理员-查看节点可用的资源配置模板: GET /api/v1/nodes/config-templates",
+          "fullFile": "/Users/admin/myCode/autoTestProjects/mocha-test/test/test_http.js",
+          "file": "/test/test_http.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "机构管理员登录",
+              "fullTitle": "机构管理员-查看节点可用的资源配置模板: GET /api/v1/nodes/config-templates 机构管理员登录",
+              "timedOut": false,
+              "duration": 1,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "org1SuperHeaders = await httpRequestAsync()",
+              "err": {
+                "message": "TypeError: httpRequestAsync is not a function",
+                "estack": "TypeError: httpRequestAsync is not a function\n    at Context.<anonymous> (file:///Users/admin/myCode/autoTestProjects/mocha-test/test/test_http.js:9:34)\n    at processImmediate (internal/timers.js:461:21)",
+                "diff": null
+              },
+              "uuid": "417a0721-9ec0-4dd9-9025-4afd59c39cfc",
+              "parentUUID": "78fdb72e-76b6-4fc5-8f1d-b22fe39bcbda",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "417a0721-9ec0-4dd9-9025-4afd59c39cfc"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "9.1.2"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.2.0"
+    }
+  }
+}

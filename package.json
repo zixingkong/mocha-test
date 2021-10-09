@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "mocha": "9.1.2",
+    "mochawesome": "6.3.1",
     "undici": "4.7.1",
     "yarn": "1.22.15"
   },
