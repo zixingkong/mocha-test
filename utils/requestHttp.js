@@ -15,4 +15,4 @@ async function httpRequestAsync(method = 'get', path='/',) {
 }
 
 
-export default { httpRequestAsync }
+export {httpRequestAsync}

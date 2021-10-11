@@ -2,14 +2,14 @@
   "stats": {
     "suites": 1,
     "tests": 1,
-    "passes": 0,
+    "passes": 1,
     "pending": 0,
-    "failures": 1,
-    "start": "2021-10-09T10:00:33.547Z",
-    "end": "2021-10-09T10:00:33.554Z",
-    "duration": 7,
+    "failures": 0,
+    "start": "2021-10-11T06:44:41.155Z",
+    "end": "2021-10-11T06:44:41.236Z",
+    "duration": 81,
     "testsRegistered": 1,
-    "passPercent": 0,
+    "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "42e7e882-46c9-4b2a-80ef-f44985b98770",
+      "uuid": "49428f53-8bc0-4374-8d2e-9abeec3726e7",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,8 +27,8 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "78fdb72e-76b6-4fc5-8f1d-b22fe39bcbda",
-          "title": "机构管理员-查看节点可用的资源配置模板: GET /api/v1/nodes/config-templates",
+          "uuid": "4ea094fa-144c-4448-a4ff-b37d99c8f0e7",
+          "title": "test",
           "fullFile": "/Users/admin/myCode/autoTestProjects/mocha-test/test/test_http.js",
           "file": "/test/test_http.js",
           "beforeHooks": [],
@@ -36,35 +36,31 @@
           "tests": [
             {
               "title": "机构管理员登录",
-              "fullTitle": "机构管理员-查看节点可用的资源配置模板: GET /api/v1/nodes/config-templates 机构管理员登录",
+              "fullTitle": "test 机构管理员登录",
               "timedOut": false,
-              "duration": 1,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
+              "duration": 77,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
               "pending": false,
               "context": null,
-              "code": "org1SuperHeaders = await httpRequestAsync()",
-              "err": {
-                "message": "TypeError: httpRequestAsync is not a function",
-                "estack": "TypeError: httpRequestAsync is not a function\n    at Context.<anonymous> (file:///Users/admin/myCode/autoTestProjects/mocha-test/test/test_http.js:9:34)\n    at processImmediate (internal/timers.js:461:21)",
-                "diff": null
-              },
-              "uuid": "417a0721-9ec0-4dd9-9025-4afd59c39cfc",
-              "parentUUID": "78fdb72e-76b6-4fc5-8f1d-b22fe39bcbda",
+              "code": "let res = await httpRequestAsync()\nconsole.log(res)",
+              "err": {},
+              "uuid": "020590c8-67b9-4aaf-b9d3-4ee7ec7d3938",
+              "parentUUID": "4ea094fa-144c-4448-a4ff-b37d99c8f0e7",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
-          "passes": [],
-          "failures": [
-            "417a0721-9ec0-4dd9-9025-4afd59c39cfc"
+          "passes": [
+            "020590c8-67b9-4aaf-b9d3-4ee7ec7d3938"
           ],
+          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1,
+          "duration": 77,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
