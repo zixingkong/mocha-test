@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-10-11T06:44:41.155Z",
-    "end": "2021-10-11T06:44:41.236Z",
-    "duration": 81,
+    "start": "2021-10-20T07:30:24.157Z",
+    "end": "2021-10-20T07:30:24.261Z",
+    "duration": 104,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "49428f53-8bc0-4374-8d2e-9abeec3726e7",
+      "uuid": "e54e8641-e8b3-4098-9605-cce830e6ec50",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "4ea094fa-144c-4448-a4ff-b37d99c8f0e7",
+          "uuid": "701c4794-914e-4e20-ba6d-821d59c71ca2",
           "title": "test",
           "fullFile": "/Users/admin/myCode/autoTestProjects/mocha-test/test/test_http.js",
           "file": "/test/test_http.js",
@@ -38,7 +38,7 @@
               "title": "机构管理员登录",
               "fullTitle": "test 机构管理员登录",
               "timedOut": false,
-              "duration": 77,
+              "duration": 99,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "let res = await httpRequestAsync()\nconsole.log(res)",
               "err": {},
-              "uuid": "020590c8-67b9-4aaf-b9d3-4ee7ec7d3938",
-              "parentUUID": "4ea094fa-144c-4448-a4ff-b37d99c8f0e7",
+              "uuid": "fecf64c2-801e-4e3e-8316-76d056ebc527",
+              "parentUUID": "701c4794-914e-4e20-ba6d-821d59c71ca2",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "020590c8-67b9-4aaf-b9d3-4ee7ec7d3938"
+            "fecf64c2-801e-4e3e-8316-76d056ebc527"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 77,
+          "duration": 99,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
