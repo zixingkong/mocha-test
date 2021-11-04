@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-11-04T07:12:05.959Z",
-    "end": "2021-11-04T07:12:06.079Z",
-    "duration": 120,
+    "start": "2021-11-04T07:51:58.223Z",
+    "end": "2021-11-04T07:51:58.332Z",
+    "duration": 109,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "cfac44b9-fb58-439c-b625-0d04c62fe35c",
+      "uuid": "48ab0a71-e3a7-4a12-9757-ff942062fd79",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "a27830c5-a1ac-497e-8eb6-497fd3aa2166",
+          "uuid": "478c2d0f-a44b-45eb-978b-0da5a2215794",
           "title": "test",
           "fullFile": "/Users/admin/myCode/autoTestProjects/mocha-test/test/test_http.js",
           "file": "/test/test_http.js",
@@ -38,7 +38,7 @@
               "title": "机构管理员登录",
               "fullTitle": "test 机构管理员登录",
               "timedOut": false,
-              "duration": 115,
+              "duration": 105,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "let headers = {'Content-Type': 'application/json'}\nlet reqBody = {\n    \"grant_type\": \"password\",\n    \"username\": \"superAdmin_38140798\",\n    \"password\": \"123321\",\n    \"client_id\": \"web_app\",\n    \"client_secret\": \"changeit\"\n};\nlet res = await httpRequestAsync({method: 'POST',headers:headers,\n    path:'/api/v1/auth/login',reqBody:reqBody});\nconsole.log(res);\nassert.deepEqual(res.status,422);",
               "err": {},
-              "uuid": "4bfc93f7-d069-497e-8ea6-bed11dbf98f9",
-              "parentUUID": "a27830c5-a1ac-497e-8eb6-497fd3aa2166",
+              "uuid": "a5699ba4-5e03-4451-8931-c99a70974c75",
+              "parentUUID": "478c2d0f-a44b-45eb-978b-0da5a2215794",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "4bfc93f7-d069-497e-8ea6-bed11dbf98f9"
+            "a5699ba4-5e03-4451-8931-c99a70974c75"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 115,
+          "duration": 105,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -78,24 +78,25 @@
   ],
   "meta": {
     "mocha": {
-      "version": "8.2.1"
+      "version": "9.1.2"
     },
-    "darjeeling": {
+    "mochawesome": {
       "options": {
         "quiet": false,
-        "reportFilename": "darjeeling",
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
         "saveJson": true,
         "consoleReporter": "spec",
         "useInlineDiffs": false,
         "code": true
       },
-      "version": "1.4.0"
+      "version": "6.3.1"
     },
-    "darj": {
+    "marge": {
       "options": {
         "alwaysCopyAssets": "true"
       },
-      "version": "0.4.0"
+      "version": "5.2.0"
     }
   }
 }

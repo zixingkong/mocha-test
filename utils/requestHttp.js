@@ -1,7 +1,7 @@
 import undici from 'undici';
 
 
-const client = new undici.Client('http://iam-identity-service.iot-qa.rootcloudapp.com');
+const client = new undici.Client('');
 
 // async function httpRequestAsync(method = 'post', path, headers, reqBody, isJson = true) {
 async function httpRequestAsync({method = 'get', path, headers, reqBody, isJson = true} = {}) {

@@ -1,7 +1,7 @@
 {
   "recursive": true,
   "no-warnings": true,
-  "reporter": "@rootcloud/darjeeling-reporter",
+  "reporter": "mochawesome",
   "reporter-options": "alwaysCopyAssets=true",
   "retries": 3
 }

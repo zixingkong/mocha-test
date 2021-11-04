@@ -7,7 +7,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "test": "mocha test --report '@rootcloud/darjeeling-reporter'"
+    "test": "mocha test"
   },
   "devDependencies": {
     "mocha": "9.1.2",
@@ -16,7 +16,6 @@
     "yarn": "1.22.15"
   },
   "dependencies": {
-    "@rootcloud/darjeeling-reporter": "1.4.0",
     "assert": "2.0.0",
     "got": "11.8.2"
   }
